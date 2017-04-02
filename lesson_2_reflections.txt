@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git starts tracking changes of the files in the directory by setting up the metadata folder. It's important to do it to be able to create commits.
+
