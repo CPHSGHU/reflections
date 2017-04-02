@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Git starts tracking changes of the files in the directory by setting up the metadata folder. It's important to do it to be able to create commits.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area serves as the marker for which files in the working directory should be tracked in the repository. It provides control over theGit version tracking by being indifferent to changes in irrelevant files.
+
