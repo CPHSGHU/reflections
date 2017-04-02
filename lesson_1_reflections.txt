@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+When in the diff output lines are marked, the user already knows where to look for typos, so even a hard to spot typo is easy to find. This reduces the search for typos drastically.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can optimize how I build up a code to avoid errors. I can also roll back any time to previous working versions when errors are introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It allows the user to decide what are the reasonable logical units of change needed to be saved. It also ensures, that executable, or at least 'make sense' code is saved as version, not random progress.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is designed for programmers, and in programming it's very frequent to have interconnected files which need to be modified concurrently. Google Docs is a file storage, where the logical units are files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+With git log it's easy to track what changes have been made in each commit, if the commit messages are well maintained. Commit IDs can be used to identify what each commit has changed in the code by using git diff to compare versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+With proper version control code can always be restored to a previous working version, so testing out risky changes become not risky at all.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it for my work to collaborate with colleagues in coding. I also want to use it in my machine learning course assignment.
