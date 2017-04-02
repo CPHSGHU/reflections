@@ -18,3 +18,7 @@ How do the diagrams help you visualize the branch structure?
 
 Easier to understand reachability and parent-child structures. Also keeps track of branch commit ids which might be unreachable from the current head.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging goes back to the split point of the two branches, then trying to figure out which changes to keep in the merged version. This is called merge strategy. At the end, commits of both branches arepreserved and reachable in the history.
+
