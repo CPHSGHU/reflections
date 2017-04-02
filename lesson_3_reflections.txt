@@ -5,3 +5,9 @@ Collaborating with people in editing the same repository.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because other people might modify anything.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks exist only on GitHub. They are clones of other users' projects, which enables the tracking of contributors to a project, while still making the user using the fork treat the project as their own.
+Clones are simple copies of a repository. Clones are useful to edit an instance of a remote repository locally, or duplicating local projects.
+Branches are a part of repositories. Branches can be used to edit logical units of code which eventually need to be merged together or killed.
