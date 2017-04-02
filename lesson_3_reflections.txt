@@ -21,3 +21,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Using file versions, email/in person communication between people, good management, separating responsibilities. 
 Easier: no need to learn Github and work with tedious command line software. (Its really horrible)
 Harder: if code is getting complicated, can run into critical problems of impossible debugging, losing some work, etc.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+In collaborations branches are easily used to be pushed to GitHub so that the admin can easily pull them if the code review finds everything ok. In this sense, any time when you're not the repository owner, you should use branches for your work.
