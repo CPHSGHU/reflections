@@ -15,3 +15,9 @@ Branches are a part of repositories. Branches can be used to edit logical units 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Tracking changes others made while the local clone was inactive/offline. It also helps resolving merge conflicts early.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using file versions, email/in person communication between people, good management, separating responsibilities. 
+Easier: no need to learn Github and work with tedious command line software. (Its really horrible)
+Harder: if code is getting complicated, can run into critical problems of impossible debugging, losing some work, etc.
