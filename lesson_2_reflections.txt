@@ -22,3 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Merging goes back to the split point of the two branches, then trying to figure out which changes to keep in the merged version. This is called merge strategy. At the end, commits of both branches arepreserved and reachable in the history.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is making it easy to merge functionally and logically different sections of the code. It also makes merging easy, when some parts of the code were only modified in one of the versions.
